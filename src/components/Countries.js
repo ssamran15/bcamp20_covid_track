@@ -11,7 +11,6 @@ function Countries({ countryConfig }) {
                     "method": "GET",
                 });
             const data = await resp.json()
-            //console.log(data);
             setCountry(data);
         }
         getCountires();
